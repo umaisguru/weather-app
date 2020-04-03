@@ -4,7 +4,7 @@ const path=require('path')
 const hbs=require('hbs')
 const forcast=require('./utils/forcast')
 const geocode=require('./utils/geocode')
-const port=process.env.port || 3000
+const port=process.env.PORT || 3000
 
 //paths for express too config
 const publicpath=path.join(__dirname,'../public')
